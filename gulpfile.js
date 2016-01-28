@@ -18,7 +18,7 @@ var babel      = require('gulp-babel');
 
 // Lint Task
 gulp.task('lint', function() {
-  gulp.src('dev/sweetalert.es6.js')
+  gulp.src('./dev/sweetalert.es6.js')
     .pipe(jshint())
     .pipe(jshint.reporter('default'));
 

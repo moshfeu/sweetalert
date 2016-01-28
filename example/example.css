@@ -87,7 +87,9 @@ p {
       color: #f26798; }
     p a.github {
       color: #323131; }
-
+span.button {
+    display:inline-block;
+}
 button, .button {
   background-color: #AEDEF4;
   color: white;
